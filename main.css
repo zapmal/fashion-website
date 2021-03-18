@@ -4,22 +4,14 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
   background-color: rgb(9, 15, 25);
   position: absolute;
   width: 100%;
   height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Roboto', 'Segoe UI';
   color: #ffffff;
-}
-
-a:hover {
-  box-shadow: 0 4px 0 -2px #ffffff;
-  transition: 0.3s;
 }
 
 nav {
@@ -36,6 +28,11 @@ nav a {
   margin-top: 15px;
   padding: 10px;
   font-size: 15px;
+}
+
+a:hover {
+  box-shadow: 0 4px 0 -2px #ffffff;
+  transition: 0.3s;
 }
 
 section.hero {
@@ -69,16 +66,6 @@ section.hero {
   font-style: italic;
 }
 
-section.one {
-  width: 100%;
-  margin: 0%;
-  padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('assets/images/background-1.jpg');
-  background-size: cover;
-  height: 100%;
-  background-attachment: fixed;
-}
 
 .hero__titles .hero-title {
   position: relative;
@@ -92,6 +79,17 @@ section.one {
   top: 50%;
   left: 60%;
   transform: translate(-60%, -50%);
+}
+
+section.one {
+  width: 100%;
+  margin: 0%;
+  padding-top: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('assets/images/background-1.jpg');
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
 }
 
 section.two {
@@ -166,6 +164,14 @@ section.five {
   border-radius: 50%;
 }
 
+.content-title {
+  font-size: 33px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
 .content-text {
   width: 70%;
   height: auto;
@@ -174,14 +180,6 @@ section.five {
   flex-wrap: wrap;
   margin-left: 15%;
   text-align: center;
-}
-
-.content-title {
-  font-size: 33px;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 5%;
-  margin-top: 5%;
 }
 
 .content-text p {
