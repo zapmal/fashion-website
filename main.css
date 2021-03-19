@@ -85,7 +85,7 @@ section.one {
   width: 100%;
   margin: 0%;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('assets/images/background-1.jpg');
   background-size: cover;
   height: 100%;
@@ -96,7 +96,7 @@ section.two {
   width: 100%;
   margin: 0%;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('assets/images/background-2.jpg');
   background-size: cover;
   height: 100%;
@@ -107,7 +107,7 @@ section.three {
   width: 100%;
   margin: 0%;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('assets/images/background-3.jpg');
   background-size: cover;
   height: 100%;
@@ -117,7 +117,7 @@ section.three {
 section.four {
   width: 100%;
   margin: 0%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('assets/images/background-4.jpg');
   background-size: cover;
   height: 100%;
@@ -129,7 +129,7 @@ section.five {
   width: 100vw;
   margin: 0%;
   padding-top: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('assets/images/background-5.jpeg');
   background-size: cover;
   background-attachment: fixed;
@@ -185,19 +185,4 @@ section.five {
 .content-text p {
   font-size: 20px;
   line-height: 30px;
-}
-
-footer {
-  height: 10vh;
-  background-color: #ffffff;
-  border-radius: 20px;
-  width: 25%;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-}
-
-footer h3 {
-  color: #000000;
-  font-style: italic;
 }
